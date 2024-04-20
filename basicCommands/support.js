@@ -4,12 +4,12 @@ module.exports = {
     name: 'support',
     description: 'support server of this Bot',
     execute(message, args) {
-        const supportServerLink = 'https://discord.gg/FUEHs7RCqz';
+        const supportServerLink = 'https://discord.gg/vUv9RvD69H';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle('Support server')
-            .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime ❤️`)
-            .setThumbnail(`https://cdn.discordapp.com/attachments/1113800537402527903/1119995338359586837/a_e8d3128cee7f07ccec68962a8294f43d.gif`)
+            .setDescription(`Click [here](${supportServerLink}) to join our server.`)
+            .setThumbnail(`https://media.discordapp.net/attachments/1129401588952354947/1231376013976666184/kot.png?ex=6636bb47&is=66244647&hm=eb361271c6073be03f3779e8c88e0255b28ace69d88f79a70d65408af14ea772&=&format=webp&quality=lossless`)
             .setTimestamp();
 
 
